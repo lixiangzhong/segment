@@ -14,7 +14,7 @@ type Segment[T comparable] struct {
 type Segments[T comparable] []Segment[T]
 
 func (s Segment[T]) String() string {
-	return fmt.Sprintf("[start: %d, end: %d, value:%v]", s.start, s.end, s.value)
+	return fmt.Sprintf("{%d~%d:%v}", s.start, s.end, s.value)
 }
 
 func (ss Segments[T]) String() string {
