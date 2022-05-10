@@ -17,6 +17,10 @@ func (s Segment[T]) String() string {
 	return fmt.Sprintf("{%d~%d:%v}", s.start, s.end, s.value)
 }
 
+func (s Segment[T]) Start() int64 { return s.start }
+func (s Segment[T]) End() int64   { return s.end }
+func (s Segment[T]) Value() T     { return s.value }
+
 func (ss Segments[T]) String() string {
 	var output []string
 	for _, s := range ss {
