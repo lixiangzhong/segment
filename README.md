@@ -32,3 +32,5 @@ func main() {
 ```
 
 > 更多例子 example/
+
+> 参考 github.com/google/segment/segment
