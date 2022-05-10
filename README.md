@@ -1,3 +1,5 @@
+[![](https://pkg.go.dev/badge/github.com/lixiangzhong/segment)](https://pkg.go.dev/github.com/lixiangzhong/segment)
+
 # Segment
 
 > 操作数字区段
